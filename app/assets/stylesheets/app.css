@@ -1,0 +1,74 @@
+html, body { heigh:100%; }
+body { font-family:Helvetica, Arial, sans-serif; }
+
+h1 {display:none}
+
+header {
+	background:url(../images/header.jpg);
+	height:276px;
+	margin: auto;
+	width:980px;
+}
+
+main {
+	margin:0 auto;
+	padding-top:60px;
+	width:980px;
+}
+
+main > .column {
+	display:inline-block;
+	vertical-align:top;
+}
+
+main > nav {
+	margin-right:70px;
+	width:300px;
+}
+
+nav > .item {
+	background-color:#ebeced;
+	border-bottom: 1px solid #fff;
+	color:#9ba0a4;
+	cursor:pointer;
+	height:60px;
+	font-size:18px;
+	line-height:60px;
+	text-align:center;
+	position:relative;
+	width:100%;
+}
+
+nav > .item .icon {
+	position:absolute;
+	right:20px;
+	top:20px;
+	background-image:url(../images/icons/sprites/icons_small.png);
+	background-repeat:no-repeat;
+	width:31px;
+	height:27px;
+}
+
+nav > .item.one .icon { background-position:center 0; }
+nav > .item.two .icon { background-position:center -23px; }
+nav > .item.three .icon { background-position:center -48px; }
+nav > .item.four .icon { background-position:center -73px; }
+nav > .item.five .icon { background-position:center -99px; }
+nav > .item.six .icon { background-position:center -125px; }
+nav > .item.seven .icon { background-position:center -150px; }
+
+#content {
+	background:red;
+	height:80px;
+	width:605px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+{
+  "name": "front-end-developer-exercise",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Francisco Gonzalez <fcojonathan@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "test"
+  ],
+  "homepage": "https://github.com/frago12/front-end-developer-exercise",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
