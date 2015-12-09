@@ -26,7 +26,7 @@ Success Criteria
 * The page should be presentable in all modern browsers as well as IE 9+, though not necessarily visually identical across the board. Please document intentional deviations.
 * You should __not__ create a mobile/responsive version, as we will not be giving any credit for it.
 * The page should be usable without JavaScript, though not necessarily functionally identical (e.g. the Dynamic Content user story requires JavaScript). Please document intentional deviations.
-* You should __not__ use a single-page application framework (e.g. Angular, Ember, React), though you can use any other libraries that you need (e.g. jQuery, Lodash, etc.).
+* Using a single-page application framework (e.g. Angular, Ember, React) is a nice-to-have.
 
 Resources
 ---------
