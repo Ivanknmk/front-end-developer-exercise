@@ -1,8 +1,6 @@
 Front-end Developer Exercise
 ============================
 
-Copyright © 2014 Lampo Licensing, LLC. All rights reserved.
-
 Objective
 ---------
 
