@@ -1,0 +1,268 @@
+/* line 3, sass/main.scss */
+body {
+  width: 980px;
+}
+
+/* line 7, sass/main.scss */
+.header-container {
+  margin-bottom: 60px;
+}
+/* line 10, sass/main.scss */
+.header-container .title-container {
+  padding: 50px 70px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  text-align: right;
+}
+/* line 19, sass/main.scss */
+.header-container .title-container h1 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 32px;
+  margin: 9px -2px 15px 0;
+}
+/* line 26, sass/main.scss */
+.header-container .title-container h2 {
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  font-size: 50px;
+  margin-right: -2px;
+  line-height: 48px;
+  letter-spacing: -1.2px;
+  width: 440px;
+}
+
+/* line 40, sass/main.scss */
+.left-bar {
+  display: inline-block;
+  margin-right: 70px;
+  min-height: 710px;
+  position: relative;
+  width: 300px;
+  background-color: #ebeced;
+}
+/* line 49, sass/main.scss */
+.left-bar:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 10px;
+  top: 0;
+  right: 0;
+  background-image: -webkit-linear-gradient(left, #ebeced 0%, #d1d5d6 100%);
+  background-image: -moz-linear-gradient(left, #ebeced 0%, #d1d5d6 100%);
+  background-image: -ms-linear-gradient(left, #ebeced 0%, #d1d5d6 100%);
+  background-image: -o-linear-gradient(left, #ebeced 0%, #d1d5d6 100%);
+  background-image: linear-gradient(left, #ebeced 0%, #d1d5d6 100%);
+}
+
+/* line 67, sass/main.scss */
+.baby-steps-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 72, sass/main.scss */
+.baby-steps-list .baby-steps-item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  font-family: 'Source Sans Pro';
+  font-size: 18px;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 24px 0 67px;
+  position: relative;
+  text-align: center;
+  z-index: 54;
+}
+/* line 91, sass/main.scss */
+.baby-steps-list .baby-steps-item a {
+  text-decoration: none;
+}
+/* line 95, sass/main.scss */
+.baby-steps-list .baby-steps-item .sprite-icon {
+  display: inline-block;
+  height: 25px;
+  width: 30px;
+  position: absolute;
+  right: 24px;
+  top: 19px;
+  background-image: url("img/icons_small.png");
+}
+/* line 108, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) a {
+  color: #9ba0a4;
+}
+/* line 112, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.dollar {
+  background-position: 0 0px;
+}
+/* line 115, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.bubble {
+  background-position: 0 -25px;
+}
+/* line 118, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.pork {
+  background-position: 0 -50px;
+}
+/* line 121, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.signal {
+  background-position: 0 -75px;
+}
+/* line 124, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.book {
+  background-position: 0 -100px;
+}
+/* line 127, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.home {
+  background-position: 0 -125px;
+}
+/* line 130, sass/main.scss */
+.baby-steps-list .baby-steps-item:not(.active) .sprite-icon.hand {
+  background-position: 0 -150px;
+}
+/* line 135, sass/main.scss */
+.baby-steps-list .baby-steps-item.active {
+  background-color: white;
+}
+/* line 137, sass/main.scss */
+.baby-steps-list .baby-steps-item.active a {
+  color: #36abe1;
+}
+/* line 141, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.dollar {
+  background-position: 0 -175px;
+}
+/* line 144, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.bubble {
+  background-position: 0 -200px;
+}
+/* line 147, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.pork {
+  background-position: 0 -225px;
+}
+/* line 150, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.signal {
+  background-position: 0 -250px;
+}
+/* line 153, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.book {
+  background-position: 0 -275px;
+}
+/* line 156, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.home {
+  background-position: 0 -300px;
+}
+/* line 159, sass/main.scss */
+.baby-steps-list .baby-steps-item.active .sprite-icon.hand {
+  background-position: 0 -325px;
+}
+
+/* line 167, sass/main.scss */
+.content-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 560px;
+}
+/* line 172, sass/main.scss */
+.content-container article {
+  font-family: Helvetica;
+  font-size: 13px;
+  line-height: 18px;
+  color: #65686f;
+}
+/* line 178, sass/main.scss */
+.content-container article p {
+  margin-bottom: 15px;
+}
+
+/* line 184, sass/main.scss */
+.img-container-sprite {
+  display: inline-block;
+  height: 65px;
+  width: 80px;
+  position: relative;
+  top: 6px;
+  left: -5px;
+  background-image: url("img/icons_large.png");
+}
+/* line 195, sass/main.scss */
+.img-container-sprite[data-type="dollar"] {
+  background-position: 0 -455px;
+}
+/* line 198, sass/main.scss */
+.img-container-sprite[data-type="bubble"] {
+  background-position: 0 -520px;
+}
+/* line 201, sass/main.scss */
+.img-container-sprite[data-type="pork"] {
+  background-position: 0 -585px;
+}
+/* line 204, sass/main.scss */
+.img-container-sprite[data-type="signal"] {
+  background-position: 0 -645px;
+}
+/* line 207, sass/main.scss */
+.img-container-sprite[data-type="book"] {
+  background-position: 0 -713px;
+}
+/* line 210, sass/main.scss */
+.img-container-sprite[data-type="home"] {
+  background-position: 0 -777px;
+}
+/* line 213, sass/main.scss */
+.img-container-sprite[data-type="hand"] {
+  background-position: 0 -842px;
+}
+
+/* line 218, sass/main.scss */
+.title-container {
+  display: inline-block;
+  vertical-align: super;
+  margin-bottom: 24px;
+}
+/* line 224, sass/main.scss */
+.title-container .title {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 30px;
+  margin-left: 3px;
+  line-height: 30px;
+  color: #36abe1;
+}
+/* line 234, sass/main.scss */
+.title-container .sub-title {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  color: #5c6366;
+}
+
+/* line 243, sass/main.scss */
+.responsive-img {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 249, sass/main.scss */
+.hidden {
+  display: none;
+}
+
+/* line 253, sass/main.scss */
+#additional-message {
+  display: inline-block;
+}
+/* line 256, sass/main.scss */
+#additional-message a {
+  color: #36abe1;
+  text-decoration: none;
+}
